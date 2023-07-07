@@ -6,8 +6,8 @@ from flask import Flask, Response
 
 app = Flask(__name__)
 
-CSV_FILE = "output.csv"  # Path to your large CSV file
-INTERVAL = 1  # Specify the desired interval between records in seconds
+CSV_FILE = "data/output.csv"  # Path to your large CSV file
+INTERVAL = 10  # Specify the desired interval between records in seconds
 
 current_event = None
 event_lock = threading.Lock()

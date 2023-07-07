@@ -1,6 +1,6 @@
 import pandas as pd
 # Read the CSV file
-df = pd.read_csv('mimicel.csv')
+df = pd.read_csv('../data/mimicel.csv')
 # Identify the timestamp column (assuming it's called 'timestamp')
 timestamp_col = 'timestamps'
 # Parse the timestamps
