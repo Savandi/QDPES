@@ -1,2 +1,2 @@
 # QDPES
-Quality Drifts In Process Event Streams
+Quality Drifts in Process Event Streams
